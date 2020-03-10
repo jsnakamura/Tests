@@ -28,7 +28,7 @@ public class OrderSummarySteps {
 		PageFactory.initElements(driver, OrderSummaryPage.class);
 		OrderSummaryCheckAction.Execute(driver, datamap);
 	}
-	
+
 	@Then("^I verify bankwire order summary and corfirm$")
 	public void I_verify_bankwire_order_summary_and_corfirm() throws Throwable {
 

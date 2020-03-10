@@ -28,12 +28,12 @@ public class AuthenticationSteps {
 		PageFactory.initElements(driver, AuthenticationPage.class);
 		SignUpAction.Execute(driver, datamap);
 	}
-	
+
 	@Then("^I sign in")
 	public void i_sign_in() throws Throwable {
-		
+
 		PageFactory.initElements(driver, AuthenticationPage.class);
-		
+
 		SignInAction.Execute(driver, datamap);
 	}
 

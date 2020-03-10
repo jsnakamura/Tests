@@ -17,18 +17,18 @@ public class VerifyAdressSteps {
 	public List<HashMap<String, String>> datamap;
 
 	public VerifyAdressSteps() {
-		
+
 		driver = Hooks.driver;
 		datamap = DataHelper.data();
 	}
-	
+
 	@Then("^I verify address and proceed$")
 	public void i_verify_details_on_shopping_cart_summary_page() throws Throwable {
-		
+
 		PageFactory.initElements(driver, VerifyAdressPage.class);
 		PageFactory.initElements(driver, VerifyAdressPage.DeliveryAddressPage.class);
 		PageFactory.initElements(driver, VerifyAdressPage.BillingAddressPage.class);
-		
+
 		VerifyAddressAction.Execute(driver, datamap);
 	}
 }

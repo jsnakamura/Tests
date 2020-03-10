@@ -16,19 +16,18 @@ import pageobjects.ShoppingCartSummaryPage;
 public class VerifyShoppingCartSummaryAction {
 
 	public static void Execute(WebDriver driver, List<HashMap<String, String>> map) throws Exception {
-		
+
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 
 		assertEquals("SHOPPING-CART SUMMARY\n" + "Your shopping cart contains: 1 Product",
 				ShoppingCartSummaryPage.page_heading.getText());
 		assertEquals("Faded Short Sleeve T-shirts", ShoppingCartSummaryPage.product_name.getText());
 		assertEquals("$18.51", ShoppingCartSummaryPage.total_price.getText());
-		
+
 		wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Proceed to checkout")));
-		
+
 		ShoppingCartSummaryPage.proceed_to_checkout.click();
-		
+
 		Reporter.log("Shopping Cart Summary verify and proceed successful");
 	}
-
 }

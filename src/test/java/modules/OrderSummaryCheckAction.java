@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 
 import org.openqa.selenium.WebDriver;
+import org.testng.Reporter;
 
 import pageobjects.OrderSummaryPage;
 
@@ -15,5 +16,7 @@ public class OrderSummaryCheckAction {
 
 		assertEquals("CHECK PAYMENT", OrderSummaryPage.page_subheading.getText());
 		OrderSummaryPage.all_buttons.get(1).click();
+
+		Reporter.log("Order summary check action successfully performed");
 	}
 }

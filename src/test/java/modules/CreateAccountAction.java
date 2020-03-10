@@ -109,7 +109,7 @@ public class CreateAccountAction {
 		CreateAccountPage.Register.click();
 		Log.info("Submit create account clicked");
 
-		Reporter.log("Create account action successfully performed ");
+		Reporter.log("Create account action successfully performed");
 	}
 
 }

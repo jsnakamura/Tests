@@ -12,7 +12,7 @@ import modules.ShippingServiceAction;
 import pageobjects.ShippingServicePage;
 
 public class ShippingServiceSteps {
-	
+
 	public WebDriver driver;
 	public List<HashMap<String, String>> datamap;
 
@@ -21,7 +21,7 @@ public class ShippingServiceSteps {
 		driver = Hooks.driver;
 		datamap = DataHelper.data();
 	}
-	
+
 	@Then("^I accept terms and proceed$")
 	public void i_verify_details_on_shopping_cart_summary_page() throws Throwable {
 

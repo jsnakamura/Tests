@@ -19,7 +19,7 @@ public class PaymentMethodPage extends BaseClass {
 
 	@FindBy(how = How.CLASS_NAME, using = "cheque")
 	public static WebElement check;
-	
+
 	@FindBy(how = How.ID, using = "total_price")
 	public static WebElement total_price;
 

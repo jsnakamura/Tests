@@ -28,7 +28,7 @@ public class PaymentMethodSteps {
 		PageFactory.initElements(driver, PaymentMethodPage.class);
 		CheckMethodAction.Execute(driver, datamap);
 	}
-	
+
 	@Then("^I choose payment method bankwire and proceed$")
 	public void I_choose_ayment_method_bankwire_and_proceed() throws Throwable {
 

@@ -21,10 +21,10 @@ public class SelectAndCheckoutProductAction {
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 
 		HomePage.HeaderPage.menu_women.click();
-		
+
 		wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Tops")));
 		HomePage.HeaderPage.WomenPage.tops.click();
-		
+
 		wait.until(ExpectedConditions.elementToBeClickable(HomePage.HeaderPage.WomenPage.TopsPage.t_shirts));
 		HomePage.HeaderPage.WomenPage.TopsPage.t_shirts.click();
 
@@ -36,10 +36,10 @@ public class SelectAndCheckoutProductAction {
 
 		wait.until(ExpectedConditions.elementToBeClickable(TshirtsCatalogPage.FadedShortSleeve.add_cart_t_shirt));
 		TshirtsCatalogPage.FadedShortSleeve.add_cart_t_shirt.click();
-		
+
 		wait.until(ExpectedConditions.elementToBeClickable(TshirtsCatalogPage.CartPopup.proceed_to_checkout));
 		TshirtsCatalogPage.CartPopup.proceed_to_checkout.click();
-		
+
 		Reporter.log("Select product successful");
 	}
 }

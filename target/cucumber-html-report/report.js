@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 10133882900,
+  "duration": 9635531600,
   "status": "passed"
 });
 formatter.scenario({
@@ -40,21 +40,22 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 8,
-  "name": "I sign in",
+  "comments": [
+    {
+      "line": 8,
+      "value": "#And I sign in"
+    }
+  ],
+  "line": 9,
+  "name": "I insert a new email and proceed to create an account",
   "keyword": "And "
 });
 formatter.step({
-  "comments": [
-    {
-      "line": 9,
-      "value": "#And I insert a new email and proceed to create an account"
-    },
-    {
-      "line": 10,
-      "value": "#And I fill create account fields and submit"
-    }
-  ],
+  "line": 10,
+  "name": "I fill create account fields and submit",
+  "keyword": "And "
+});
+formatter.step({
   "line": 11,
   "name": "I verify address and proceed",
   "keyword": "And "
@@ -83,67 +84,74 @@ formatter.match({
   "location": "OpenAutomationPracticeSteps.i_open_automationpractice_website()"
 });
 formatter.result({
-  "duration": 5714324300,
+  "duration": 7872734100,
   "status": "passed"
 });
 formatter.match({
   "location": "SelectAndCheckoutProductSteps.i_select_a_t_shirt_and_proceed_to_checkout()"
 });
 formatter.result({
-  "duration": 7987657700,
+  "duration": 10413424000,
   "status": "passed"
 });
 formatter.match({
   "location": "ShoppingCartSummarySteps.i_verify_details_on_shopping_cart_summary_page()"
 });
 formatter.result({
-  "duration": 2044151400,
+  "duration": 1888257600,
   "status": "passed"
 });
 formatter.match({
-  "location": "AuthenticationSteps.i_sign_in()"
+  "location": "AuthenticationSteps.i_insert_a_new_email_and_proceed_to_create_an_account()"
 });
 formatter.result({
-  "duration": 1912173600,
+  "duration": 268381000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "CreateAccountSteps.I_fill_create_account_fields_and_submit()"
+});
+formatter.result({
+  "duration": 5998086900,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyAdressSteps.i_verify_details_on_shopping_cart_summary_page()"
 });
 formatter.result({
-  "duration": 1300445700,
+  "duration": 1419589200,
   "status": "passed"
 });
 formatter.match({
   "location": "ShippingServiceSteps.i_verify_details_on_shopping_cart_summary_page()"
 });
 formatter.result({
-  "duration": 1516975900,
+  "duration": 1311994200,
   "status": "passed"
 });
 formatter.match({
   "location": "PaymentMethodSteps.I_choose_payment_method_check_and_proceed()"
 });
 formatter.result({
-  "duration": 1180403500,
+  "duration": 1141058700,
   "status": "passed"
 });
 formatter.match({
   "location": "OrderSummarySteps.I_verify_check_order_summary_and_corfirm()"
 });
 formatter.result({
-  "duration": 2857975400,
+  "duration": 2808041800,
   "status": "passed"
 });
 formatter.match({
   "location": "OrderConfirmationSteps.i_verify_order_summary_page_and_proceed()"
 });
 formatter.result({
-  "duration": 75077500,
+  "duration": 84736600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1079550300,
+  "duration": 1098794000,
   "status": "passed"
 });
 });

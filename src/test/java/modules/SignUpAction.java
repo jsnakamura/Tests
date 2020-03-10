@@ -16,7 +16,7 @@ public class SignUpAction {
 	public static void Execute(WebDriver driver, List<HashMap<String, String>> map) throws Exception {
 
 		WebDriverWait wait = new WebDriverWait(driver, 10);
-		
+
 		AuthenticationPage.email_create.sendKeys(map.get(0).get("Email"));
 		Log.info("New email entered in text box");
 
