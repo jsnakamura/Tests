@@ -9,6 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import helpers.Log;
 import pageobjects.OrderConfirmationPage;
 
 public class OrderConfirmationAction {
@@ -20,7 +21,6 @@ public class OrderConfirmationAction {
 		wait.until(
 				ExpectedConditions.textToBePresentInElement(OrderConfirmationPage.page_heading, "ORDER CONFIRMATION"));
 		assertEquals("ORDER CONFIRMATION", OrderConfirmationPage.page_heading.getText());
-
-		//assertEquals("Your order on My Store is complete.", OrderConfirmationPage.order_complete_message.getText());
+		Log.info("confirmation order successfully performed");
 	}
 }

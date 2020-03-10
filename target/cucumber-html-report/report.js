@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 10136291300,
+  "duration": 10133882900,
   "status": "passed"
 });
 formatter.scenario({
@@ -83,67 +83,67 @@ formatter.match({
   "location": "OpenAutomationPracticeSteps.i_open_automationpractice_website()"
 });
 formatter.result({
-  "duration": 4871715800,
+  "duration": 5714324300,
   "status": "passed"
 });
 formatter.match({
   "location": "SelectAndCheckoutProductSteps.i_select_a_t_shirt_and_proceed_to_checkout()"
 });
 formatter.result({
-  "duration": 8240131500,
+  "duration": 7987657700,
   "status": "passed"
 });
 formatter.match({
   "location": "ShoppingCartSummarySteps.i_verify_details_on_shopping_cart_summary_page()"
 });
 formatter.result({
-  "duration": 2067906400,
+  "duration": 2044151400,
   "status": "passed"
 });
 formatter.match({
   "location": "AuthenticationSteps.i_sign_in()"
 });
 formatter.result({
-  "duration": 1815567700,
+  "duration": 1912173600,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyAdressSteps.i_verify_details_on_shopping_cart_summary_page()"
 });
 formatter.result({
-  "duration": 1255642300,
+  "duration": 1300445700,
   "status": "passed"
 });
 formatter.match({
   "location": "ShippingServiceSteps.i_verify_details_on_shopping_cart_summary_page()"
 });
 formatter.result({
-  "duration": 1332604300,
+  "duration": 1516975900,
   "status": "passed"
 });
 formatter.match({
   "location": "PaymentMethodSteps.I_choose_payment_method_check_and_proceed()"
 });
 formatter.result({
-  "duration": 985309400,
+  "duration": 1180403500,
   "status": "passed"
 });
 formatter.match({
   "location": "OrderSummarySteps.I_verify_check_order_summary_and_corfirm()"
 });
 formatter.result({
-  "duration": 1997588900,
+  "duration": 2857975400,
   "status": "passed"
 });
 formatter.match({
   "location": "OrderConfirmationSteps.i_verify_order_summary_page_and_proceed()"
 });
 formatter.result({
-  "duration": 68041400,
+  "duration": 75077500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1079175900,
+  "duration": 1079550300,
   "status": "passed"
 });
 });

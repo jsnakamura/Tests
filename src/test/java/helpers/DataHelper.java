@@ -59,7 +59,7 @@ public class DataHelper {
 			});
 
 			fileInput.close();
-		
+
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

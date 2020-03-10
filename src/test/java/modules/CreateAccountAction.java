@@ -42,7 +42,7 @@ public class CreateAccountAction {
 
 		CreateAccountPage.PersonalInfo.password.sendKeys(DataHelper.getMapValue(datamap, 0, "Password"));
 		Log.info("password entered in text box");
-		
+
 		Select daySelectList = new Select(CreateAccountPage.PersonalInfo.day_birth);
 		daySelectList.selectByVisibleText(DataHelper.getMapValue(datamap, 0, "DayBirth") + "  ");
 		Log.info("Day of birth selected");
@@ -108,7 +108,7 @@ public class CreateAccountAction {
 
 		CreateAccountPage.Register.click();
 		Log.info("Submit create account clicked");
-		
+
 		Reporter.log("Create account action successfully performed ");
 	}
 
